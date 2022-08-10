@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/24edf2445b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Website Navbar</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="nav-container">
+      <nav class="navbar">
+        <h1 id="navbar-logo">STRRAAA</h1>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-links">Home</a></li>
+          <li><a href="#" class="nav-links">Services</a></li>
+          <li><a href="#" class="nav-links">About Us</a></li>
+          <li><a href="#" class="nav-links">Contact Us</a></li>
+          <li><a href="#" class="nav-links nav-links-btn">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- MAIN PAGE -->
+    <div class="main">
+      <div class="main-container">
+        <div class="main-content">
+          <h1>Skyrocket your results</h1>
+          <p>
+            Strraaa alows you to fully automate your life so you can focus on
+            what's important. <br />Coded in HTML, CSS and JS. Fully responsive.
+          </p>
+          <button class="main-btn"><a href="#">Get Started</a></button>
+        </div>
+        <div class="main-img-container">
+          <img src="./images/img3_red.svg" alt="" id="main-img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- EMAIL MODAL -->
+    <div class="modal" id="email-modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content-left">
+          <img src="./images/img_modal_red.svg" alt="" id="modal-img" />
+        </div>
+        <div class="modal-content-right">
+          <form action="/" method="GET" class="modal-form" id="form">
+            <h1>
+              Get started with us today! Create your account by filling out the
+              information below.
+            </h1>
+            <div class="form-validation">
+              <input
+                type="text"
+                class="modal-input"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form-validation">
+              <input
+                type="email"
+                class="modal-input"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form-validation">
+              <input
+                type="password"
+                class="modal-input"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form-validation">
+              <input
+                type="password"
+                class="modal-input"
+                id="password-confirm"
+                name="password"
+                placeholder="Confirm your password"
+              />
+              <p>Error Message</p>
+            </div>
+            <input type="submit" class="modal-input-btn" value="Sign Up" />
+            <span class="modal-input-login"
+              >Already have an account? Login <a href="#">here</a></span
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMAGE GALLERY -->
+    <div class="services-section">
+      <div class="services-heading">
+        <h1>Check Out This EPIC Responsive Gallery!</h1>
+      </div>
+      <div class="services">
+        <div class="services-cell">
+          <img src="./gallery/img1.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">Digital Marketing</div>
+        </div>
+        <div class="services-cell">
+          <img src="./gallery/img2.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">Website Development</div>
+        </div>
+        <div class="services-cell">
+          <img src="./gallery/img3.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">Videography</div>
+        </div>
+        <div class="services-cell">
+          <img src="./gallery/img4.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">Photography</div>
+        </div>
+        <div class="services-cell">
+          <img src="./gallery/img5.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">Consulting</div>
+        </div>
+        <div class="services-cell">
+          <img src="./gallery/img6.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">SEO</div>
+        </div>
+        <div class="services-cell">
+          <img src="./gallery/img7.jpg" alt="" class="services-cell_img" />
+          <div class="services-cell_text">Graphic Design</div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF IMAGE GALLERY -->
+
+    <!-- FOOTER -->
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About Us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Investors</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact Us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorships</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">YouTube</a>
+            </div>
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
